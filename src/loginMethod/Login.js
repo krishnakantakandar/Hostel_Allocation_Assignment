@@ -19,7 +19,7 @@ export const Login = (props) => {
     localStorage.setItem("userData", res.displayName);
     demoMethod("yes");
     history.push("/HostelChoose");
-    setstate("nkjh");
+    setstate("render");
   };
 
   const demoMethod = (value) => {

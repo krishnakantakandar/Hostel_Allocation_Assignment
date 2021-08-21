@@ -11,6 +11,7 @@ const Navbar = ({ user }) => {
 
   const handleSignOut = () => {
     localStorage.removeItem("totalUser");
+    localStorage.removeItem("hosteId");
     window.location.href = "/";
   };
 

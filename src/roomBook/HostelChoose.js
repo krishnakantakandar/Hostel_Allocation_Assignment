@@ -11,14 +11,13 @@ export const HostelChoose = () => {
     sessionStorage.setItem("gender", gender);
     history.push("/PerticularHostel");
   };
-  const [isLogin, setisLogin] = useState(false);
 
-  let obj = JSON.parse(localStorage.getItem("hosteId"));
+  let obj = JSON.parse(localStorage.getItem("hostelId"));
 
   let HostelId = sessionStorage.getItem("hosteId");
   let roomId = sessionStorage.getItem("roomId");
 
-  if (localStorage.getItem("hosteId")) {
+  if (localStorage.getItem("hostelId")) {
     return (
       <>
         <div id="pop" className="bookingDoneAlready">
