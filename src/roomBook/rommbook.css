@@ -1,0 +1,124 @@
+.hostel-choose {
+  height: 90%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+}
+.boys-hostels {
+  height: 20%;
+  width: 15%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.girls-hostels {
+  height: 20%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+p {
+  font-size: 25px;
+}
+.perticularHos {
+  height: 90%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10%;
+}
+.blocks {
+  height: 40%;
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.block-de {
+  height: 30%;
+  width: 25%;
+  background-color: rgb(104, 100, 100);
+  margin-right: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+.room {
+  height: 90%;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+}
+.selectRoom {
+  height: 40%;
+  width: 30%;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.perticularRoomSelected {
+  height: 20%;
+  width: 20%;
+  background-color: greenyellow;
+  margin: 5px;
+}
+
+.bookingDone {
+  background: #f0f8fff1;
+  position: absolute;
+  height: 70%;
+  width: 50%;
+  border-radius: 15px;
+  color: rgb(6, 7, 7);
+  font-size: 20px;
+  /* display: none; */
+  /* opacity: 0.5; */
+}
+.successAlready {
+  height: 60%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(146, 177, 202);
+  position: absolute;
+  bottom: 10%;
+  border-radius: 10px;
+  font-size: 20px;
+  justify-content: space-around;
+}
+.bookingDoneAlready {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+
+  align-items: center;
+}
+.header {
+  height: 10%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  box-shadow: 1px 1px 1px 1px #aaaaaa;
+}
